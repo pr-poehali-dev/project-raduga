@@ -1,57 +1,57 @@
 const testimonials = [
   {
     quote:
-      "Подсказки NeuralCode в реальном времени - это как иметь сеньор-разработчика, который проверяет каждую строку кода. Точность рекомендаций повысила качество кода и сократила время на ревью.",
+      "Я впервые сдала все задания вовремя! Раньше постоянно что-то упускала из виду в разных чатах. Теперь открываю приложение — и сразу вижу весь план на неделю.",
     name: "Анна Петрова",
-    company: "TechFlow Solutions",
+    company: "Студентка, МГУ",
     avatar: "/images/avatars/annette-black.png",
     type: "large-teal",
   },
   {
     quote:
-      "Интеграция NeuralCode прошла гладко, а MCP-подключения сэкономили нам дни работы над конфигурацией.",
+      "Больше не проверяю 10 чатов каждый день в поисках дедлайнов. Стало реально спокойнее.",
     name: "Елена Смирнова",
-    company: "Quantum Dynamics",
+    company: "Онлайн-курс Skillbox",
     avatar: "/images/avatars/dianne-russell.png",
     type: "small-dark",
   },
   {
     quote:
-      "Мульти-агентная функция NeuralCode изменила всё. Теперь мы исправляем сложные баги за часы, а не за целые спринты.",
+      "Подключил за 5 минут — и все дедлайны с пяти платформ появились в одном месте. Магия какая-то.",
     name: "Максим Волков",
-    company: "Alpine Ventures",
+    company: "Студент, ИТМО",
     avatar: "/images/avatars/cameron-williamson.png",
     type: "small-dark",
   },
   {
     quote:
-      "Больше никакого жонглирования инструментами. NeuralCode объединил все интеграции в одном месте и упростил весь рабочий процесс.",
+      "Как фрилансер, я жонглирую задачами от 8 клиентов. DeadlineHub — единственное, что спасает от хаоса.",
     name: "Дмитрий Козлов",
-    company: "Stellar Analytics",
+    company: "Фрилансер",
     avatar: "/images/avatars/robert-fox.png",
     type: "small-dark",
   },
   {
     quote:
-      "Мы начали с бесплатного плана, но через неделю перешли на Про. Теперь не представляем работу без него.",
+      "Начала с бесплатного плана, через три дня перешла на Премиум. Жалею только, что нашла это не раньше.",
     name: "Ольга Новикова",
-    company: "Nova Industries",
+    company: "Студентка, НИУ ВШЭ",
     avatar: "/images/avatars/darlene-robertson.png",
     type: "small-dark",
   },
   {
     quote:
-      "Совместная работа стала лёгкой. С превью NeuralCode в реальном времени парное программирование стало быстрее и продуктивнее.",
+      "Напоминания приходят за 2 дня до дедлайна, а не в ночь перед сдачей. Это меняет всё.",
     name: "Игорь Соколов",
-    company: "CloudBridge Tech",
+    company: "Студент, СПбГУ",
     avatar: "/images/avatars/cody-fisher.png",
     type: "small-dark",
   },
   {
     quote:
-      "Деплой с NeuralCode - это не просто, это бесшовно. От кода до продакшена за минуты без головной боли с пайплайнами.",
+      "Перестал бояться что-то забыть. Открываю утром приложение — и знаю, что сегодня делать. Стало реально спокойнее жить.",
     name: "Мария Федорова",
-    company: "Nexus Software",
+    company: "Школьница, 11 класс",
     avatar: "/images/avatars/albert-flores.png",
     type: "large-light",
   },
@@ -139,11 +139,11 @@ export function TestimonialGridSection() {
       <div className="self-stretch py-6 md:py-8 lg:py-14 flex flex-col justify-center items-center gap-2">
         <div className="flex flex-col justify-start items-center gap-4">
           <h2 className="text-center text-foreground text-3xl md:text-4xl lg:text-[40px] font-semibold leading-tight md:leading-tight lg:leading-[40px]">
-            Разработка без усилий
+            Люди, которые больше не опаздывают
           </h2>
           <p className="self-stretch text-center text-muted-foreground text-sm md:text-sm lg:text-base font-medium leading-[18.20px] md:leading-relaxed lg:leading-relaxed">
-            {"Узнайте, как разработчики быстрее выпускают продукты, работают слаженно"} <br />{" "}
-            {"и создают код уверенно с помощью мощных ИИ-инструментов NeuralCode"}
+            {"Студенты, фрилансеры и школьники уже используют DeadlineHub"} <br />{" "}
+            {"и наконец-то чувствуют порядок в своей жизни"}
           </p>
         </div>
       </div>

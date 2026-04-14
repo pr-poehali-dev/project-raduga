@@ -42,33 +42,33 @@ const BentoCard = ({ title, description, Component }: BentoCardProps) => (
 export function BentoSection() {
   const cards = [
     {
-      title: "ИИ-ревью кода.",
-      description: "Умные подсказки для чистого кода в реальном времени.",
+      title: "🔔 Ничего не пропустишь.",
+      description: "Все дедлайны автоматически собираются в один календарь.",
       Component: AiCodeReviews,
     },
     {
-      title: "Превью в реальном времени",
-      description: "Общайтесь, работайте вместе и сразу видьте изменения.",
+      title: "🧠 Меньше стресса.",
+      description: "Не нужно держать всё в голове — приложение помнит за тебя.",
       Component: RealtimeCodingPreviews,
     },
     {
-      title: "Интеграции в один клик",
-      description: "Легко подключайте любимые инструменты разработки.",
+      title: "⚡ Подключение источников.",
+      description: "Почта, Telegram, Notion, LMS — всё в одном месте.",
       Component: OneClickIntegrationsIllustration,
     },
     {
-      title: "Гибкое MCP-подключение",
-      description: "Простое управление доступом к MCP-серверам.",
+      title: "📊 Понимание нагрузки.",
+      description: "Видишь, когда у тебя завал, а когда свободное время.",
       Component: MCPConnectivityIllustration,
     },
     {
-      title: "Параллельные ИИ-агенты",
-      description: "Решайте сложные задачи быстрее с несколькими агентами.",
+      title: "⚙️ Умные напоминания.",
+      description: "Получаешь уведомления заранее — не в последний момент.",
       Component: ParallelCodingAgents,
     },
     {
-      title: "Простой деплой",
-      description: "От кода до продакшена за считанные минуты.",
+      title: "🕐 Экономия времени.",
+      description: "Не нужно искать информацию вручную по 10 чатам.",
       Component: EasyDeployment,
     },
   ]
@@ -80,10 +80,10 @@ export function BentoSection() {
         <div className="self-stretch py-8 md:py-14 flex flex-col justify-center items-center gap-2 z-10">
           <div className="flex flex-col justify-start items-center gap-4">
             <h2 className="w-full max-w-[655px] text-center text-foreground text-4xl md:text-6xl font-semibold leading-tight md:leading-[66px]">
-              Усильте рабочий процесс с ИИ
+              Почему это работает
             </h2>
             <p className="w-full max-w-[600px] text-center text-muted-foreground text-lg md:text-xl font-medium leading-relaxed">
-              Попросите ИИ-агента помочь с совместной работой, интеграциями и аналитикой для оптимизации процессов.
+              Ты не ленивый — ты просто живёшь в хаосе информации. DeadlineHub убирает этот хаос.
             </p>
           </div>
         </div>
