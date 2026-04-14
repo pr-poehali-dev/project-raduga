@@ -1,9 +1,9 @@
-import AiCodeReviews from "./bento/ai-code-reviews"
-import RealtimeCodingPreviews from "./bento/real-time-previews"
-import OneClickIntegrationsIllustration from "./bento/one-click-integrations-illustration"
-import MCPConnectivityIllustration from "./bento/mcp-connectivity-illustration"
-import EasyDeployment from "./bento/easy-deployment"
-import ParallelCodingAgents from "./bento/parallel-agents"
+import IllustrationNotifications from "./bento/illustration-notifications"
+import IllustrationCalm from "./bento/illustration-calm"
+import IllustrationSources from "./bento/illustration-sources"
+import IllustrationLoad from "./bento/illustration-load"
+import IllustrationReminders from "./bento/illustration-reminders"
+import IllustrationTime from "./bento/illustration-time"
 
 interface BentoCardProps {
   title: string
@@ -44,32 +44,32 @@ export function BentoSection() {
     {
       title: "🔔 Ничего не пропустишь.",
       description: "Все дедлайны автоматически собираются в один календарь.",
-      Component: AiCodeReviews,
+      Component: IllustrationNotifications,
     },
     {
       title: "🧠 Меньше стресса.",
       description: "Не нужно держать всё в голове — приложение помнит за тебя.",
-      Component: RealtimeCodingPreviews,
+      Component: IllustrationCalm,
     },
     {
       title: "⚡ Подключение источников.",
       description: "Почта, Telegram, Notion, LMS — всё в одном месте.",
-      Component: OneClickIntegrationsIllustration,
+      Component: IllustrationSources,
     },
     {
       title: "📊 Понимание нагрузки.",
       description: "Видишь, когда у тебя завал, а когда свободное время.",
-      Component: MCPConnectivityIllustration,
+      Component: IllustrationLoad,
     },
     {
       title: "⚙️ Умные напоминания.",
       description: "Получаешь уведомления заранее — не в последний момент.",
-      Component: ParallelCodingAgents,
+      Component: IllustrationReminders,
     },
     {
       title: "🕐 Экономия времени.",
       description: "Не нужно искать информацию вручную по 10 чатам.",
-      Component: EasyDeployment,
+      Component: IllustrationTime,
     },
   ]
 
